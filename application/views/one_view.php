@@ -143,7 +143,23 @@
         <h1>
         	Ada berapakah negara penjual?
         </h1>        
-      </section>              
+      </section>
+      <section class="content">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+              <span class="info-box-icon bg-aqua"><i class="ion ion-ios-gear-outline"></i></span>
+
+              <div class="info-box-content">
+                <span class="info-box-text">Total Negara</span>
+                <span class="info-box-number"><?php echo $total;?></span>
+              </div>
+              <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+          </div>
+        </div>
+      </section>
     </div> -->
     </body>
     <script src="<?php echo base_url(); ?>assets/js/jQuery-2.1.4.min.js"></script>
